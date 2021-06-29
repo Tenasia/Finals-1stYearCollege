@@ -49,7 +49,7 @@
         color: white;
         position: absolute;
         left: 30px;
-        top: -2.5px;
+        top: -1.5px;
         letter-spacing: 2px;
     }
     .search-icon {
@@ -59,6 +59,54 @@
         position: absolute;
         right: 10px;
         top: 10px;
+    }
+    /* css for when user taps search icon */
+    .p-menu1 {
+        width: 100%;
+        height: 40px;
+        background-color: #343a40;
+        color: white;
+        top: 0;
+        position: fixed;
+        font-size: 1px;
+    }
+    .search-bar {
+        font-size: 1rem;
+        position: absolute;
+        width: 200px;
+        height: 25px;
+        top: 22.5%;
+        left: 40px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+    .search-icon1 {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 5px;
+        top: 7.5px;
+    }
+    .cancel-button {
+        position: absolute;
+        color: white;
+        right: 20px;
+        top: 2.5px;
+        font-size: 1.5rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+    .cancel-button:hover,
+    .cancel-button:focus {
+        text-decoration: none;
+        color: white;
+    }
+    .display-none {
+        display: none;
+    }
+    .display-block {
+        display: block;
     }
     /* mini-nav */
     .mini-nav {
