@@ -146,6 +146,9 @@
     .mini-nav a:focus {
         text-decoration: none;
     }
+    .mini-nav a:hover {
+        text-decoration: none;
+    }
     .mini-nav li {
         width: 100px;
         height: 50px;
