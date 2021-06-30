@@ -180,13 +180,13 @@
             margin-left: 10px;
         }
         /*general css to be used*/
-        .dropdown-icon {
+        .dropdown-icon-popular {
             float: right;
             width: 25px;
             height: 25px;
             margin-right: 10px;
         }
-        .dropdown-icon1 {
+        .dropdown-icon-popular-1 {
             float: right;
             width: 25px;
             height: 25px;
@@ -241,5 +241,146 @@
         }
         .width-100 {
             width: 100%;
+        }
+        /*just-arrived section*/
+        .just-arrived-title {
+            text-align: center;
+            font-weight: bold;
+        }
+        /* top-seller section */
+        .top-seller-section {
+            margin-top: 20px;
+        }
+        .dropdown-icon-top-seller {
+            float: right;
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+        }
+        .dropdown-icon-top-seller-1 {
+            float: right;
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+            transform: rotate(180deg);
+        }
+        .top-seller-products {
+            width: 100%;
+            margin-bottom: 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+        }
+        /* trending now section*/
+        .trending-now-title {
+            text-align: center;
+            font-weight: bold;
+        }
+        /* best seller section */
+        .best-seller-section {
+            margin-top: 20px;
+        }
+        .dropdown-icon-best-seller {
+            float: right;
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+        }
+        .dropdown-icon-best-seller-1 {
+            float: right;
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+            transform: rotate(180deg);
+        }
+        .best-seller-products {
+            width: 100%;
+            margin-bottom: 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+        }
+        /* top brands section */
+        .top-brands {
+            display: grid;
+            width: 100%;
+            font-size: 0;
+            padding: 0px 5px 0px 5px;
+        }
+        .top-brands-title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 2rem;
+        }
+        .top-brands-description {
+            text-align: center;
+        }
+        .brand-image {
+            width: 33%;
+            float: left;
+            padding: 1.04166666%;
+        }
+        .row-tiles::before,
+        .row-tiles::after {
+            display: table;
+            content: '';
+        }
+        .row-tiles::after {
+            clear: both;
+        }
+        .brand-text {
+            display: inline-block;
+            width: 33%;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 1.04166666%;
+            text-align: center;
+        }
+        /*page-description*/
+        .page-description {
+            width: 100%;
+            padding: 20px;
+        }
+        .page-description-header {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .page-description-paragraph {
+            font-size: 14px;
+        }
+        /*footer-section*/
+        .footer-section {
+            font-size: 0;
+            margin-bottom: 20px;
+        }
+        /*bottom nav bar
+        f4f4f4*/
+        .bottom-navigation {
+            position: fixed;
+            z-index: 1;
+            bottom: -1%;
+            width: 100%;
+            padding-right: 50px;
+            padding-top: 5px;
+            padding-bottom: 10px;
+            background-color: #f4f4f4;
+        }
+        .bottom-navigation ul {
+            width: 100%;
+        }
+        .bottom-navigation li {
+            list-style-type: none;
+            float: left;
+            width: 20%;
+            font-size: 10px;
+            text-align: center;
+        }
+        .bottom-navigation-links img {
+            width: 25px;
+            height: 25px;
+        }
+    }
+    
+    @media only screen and (min-width: 600px) {
+        body {
+            display: none;
         }
     }

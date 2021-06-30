@@ -23,16 +23,43 @@ $(function() {
 
 
     });
-    $('.dropdown-icon').click(function() {
-        $('.dropdown-icon').addClass('display-none')
-        $('.dropdown-icon1').removeClass('display-none')
+    // popular
+    $('.dropdown-icon-popular').click(function() {
+        $('.dropdown-icon-popular').addClass('display-none')
+        $('.dropdown-icon-popular-1').removeClass('display-none')
         $('.popular-products').addClass('display-none')
 
     });
-    $('.dropdown-icon1').click(function() {
-        $('.dropdown-icon1').addClass('display-none')
-        $('.dropdown-icon').removeClass('display-none')
+    $('.dropdown-icon-popular-1').click(function() {
+        $('.dropdown-icon-popular-1').addClass('display-none')
+        $('.dropdown-icon-popular').removeClass('display-none')
         $('.popular-products').removeClass('display-none')
+
+    });
+    // topseller
+    $('.dropdown-icon-top-seller').click(function() {
+        $('.dropdown-icon-top-seller').addClass('display-none')
+        $('.dropdown-icon-top-seller-1').removeClass('display-none')
+        $('.top-seller-products').addClass('display-none')
+
+    });
+    $('.dropdown-icon-top-seller-1').click(function() {
+        $('.dropdown-icon-top-seller-1').addClass('display-none')
+        $('.dropdown-icon-top-seller').removeClass('display-none')
+        $('.top-seller-products').removeClass('display-none')
+
+    });
+    // bestseller
+    $('.dropdown-icon-best-seller').click(function() {
+        $('.dropdown-icon-best-seller').addClass('display-none')
+        $('.dropdown-icon-best-seller-1').removeClass('display-none')
+        $('.best-seller-products').addClass('display-none')
+
+    });
+    $('.dropdown-icon-best-seller-1').click(function() {
+        $('.dropdown-icon-best-seller-1').addClass('display-none')
+        $('.dropdown-icon-best-seller').removeClass('display-none')
+        $('.best-seller-products').removeClass('display-none')
 
     });
 
