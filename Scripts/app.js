@@ -13,7 +13,7 @@ $(function() {
         $('.cancel-button').removeClass('display-none')
     });
     $('.cancel-button').click(function() {
-        //
+
         $('.cancel-button').addClass('display-none')
         $('.search-icon').removeClass('display-none')
         $('.search-icon1').addClass('display-none')
@@ -23,4 +23,17 @@ $(function() {
 
 
     });
+    $('.dropdown-icon').click(function() {
+        $('.dropdown-icon').addClass('display-none')
+        $('.dropdown-icon1').removeClass('display-none')
+        $('.popular-products').addClass('display-none')
+
+    });
+    $('.dropdown-icon1').click(function() {
+        $('.dropdown-icon1').addClass('display-none')
+        $('.dropdown-icon').removeClass('display-none')
+        $('.popular-products').removeClass('display-none')
+
+    });
+
 });

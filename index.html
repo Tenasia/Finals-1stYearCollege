@@ -19,11 +19,11 @@
     <nav class="p-menu1">
         <img class="logo-icon" src="Images/Icons/a.svg">
         <h1 class="logo ">ARAM</h1>
-        <a href="#"><img class="search-icon " src="Images/Icons/search.svg"></a>
+        <img class="search-icon " src="Images/Icons/search.svg">
         <!-- This is what will appear when the search-icon class is touched/tapped and the above will set to display:none;-->
-        <a href="#"><img class="search-icon1 display-none" src="Images/Icons/search.svg"></a>
+        <img class="search-icon1 display-none" src="Images/Icons/search.svg">
         <input class="search-bar display-none" placeholder="Search our store!">
-        <a href="#" class="cancel-button display-none">Cancel</a>
+        <p class="cancel-button display-none">Cancel</p>
     </nav>
     <div class="mini-nav">
         <ul>
@@ -37,17 +37,135 @@
         </ul>
     </div>
     <section class='mobile-container'>
+        <!-- three image banner 
+             1. image banner (static) 1x size 1 image
+             2. image banner (responsive) 2x size 2 images
+             3. image banner (responsive) 1x size 2 images
+        -->
+        <div class="three-image-banner-section">
+            <div class="first-image-banner">
+                <img src="Images/cat1.jpg">
+            </div>
+            <div class="second-image-banner">
+                <img src="Images/cat2.jpg">
+            </div>
+            <div class="first-image-banner">
+                <img src="Images/cat1.jpg">
+            </div>
+        </div>
+        <hr>
+        <!-- popular products dropdown arrow going up first and then going down
+            most popular products out of all brands
+            same functionality of the scrolling menus/links
+        -->
+        <div class="popular-products-section">
+            <p class="section-title">Popular Products</p>
+            <img class="dropdown-icon" src="Images/Icons/dropdown.svg">
+            <img class="dropdown-icon1 display-none" src="Images/Icons/dropdown.svg">
+            <div class="popular-products">
+                <div class="item-card">
+                    <div class="post-card">
+                        <img class="width-100" src="Images/cat3.jpg">
+                        <p class="item-name">Cat</p>
+                        <p class="item-description">A cat is a furry animal that has a long tail and sharp claws.</p>
+                        <p class="item-price">Php 3,500.00</p>
+                    </div>
+                    <div class="post-card">
+                        <img class="width-100" src="Images/cat3.jpg">
+                        <p class="item-name">Cat</p>
+                        <p class="item-description">A cat is a furry animal that has a long tail and sharp claws.</p>
+                        <p class="item-price">Php 3,500.00</p>
+                    </div>
+                    <div class="post-card">
+                        <img class="width-100" src="Images/cat3.jpg">
+                        <p class="item-name">Cat</p>
+                        <p class="item-description">A cat is a furry animal that has a long tail and sharp claws. </p>
+                        <p class="item-price">Php 3,500.00</p>
+                    </div>
+                    <div class="post-card">
+                        <img class="width-100" src="Images/cat3.jpg">
+                        <p class="item-name">Cat</p>
+                        <p class="item-description">A cat is a furry animal that has a long tail and sharp claws. </p>
+                        <p class="item-price">Php 3,500.00</p>
+                    </div>
+                    <div class="post-card">
+                        <img class="width-100" src="Images/cat3.jpg">
+                        <p class="item-name">Cat</p>
+                        <p class="item-description">A cat is a furry animal that has a long tail and sharp claws. </p>
+                        <p class="item-price">Php 3,500.00</p>
+                    </div>
+                    <div class="post-card">
+                        <img class="width-100" src="Images/cat3.jpg">
+                        <p class="item-name">Cat</p>
+                        <p class="item-description">A cat is a furry animal that has a long tail and sharp claws. </p>
+                        <p class="item-price">Php 3,500.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- just arrived section
+            
+            two image banner
+            1. image banner (static) 2x size 1 image
+            2. image banner (static) 2x size 1 image
 
+        -->
+        <!-- top sellers dropdown arrow going up first and then going down
+
+             top sellers products out of all brands
+             same functionality of the scrolling menus/links
+
+        -->
+        <!-- trending now section
+            
+            three image banner
+            1. image banner (static) 2x size 1 image
+            2. image banner (static) 2x size 1 image
+            3. image banner (static) 2x size 1 image
+        -->
+        <!-- best sellers dropdown arrow going up first and then going down
+        
+             best seller products out of all brands
+             same functionality of the scrolling menus/links
+
+        -->
+        <!-- shop top sellers dropdown arrow going up first and then going down
+        
+             shop top seller products out of all brands
+             same functionality of the scrolling menus/links
+
+        -->
+        <!-- top brands 
+        
+            three columns 
+            eight rows
+            equal sizes
+        -->
+        <!-- 
+
+            introduction on the page section
+            read more function dropdown
+            read less function to remove the dropdown
+
+        -->
+        <!--    
+            footer 
+            three columns
+            two rows
+        -->
+        <!-- 
+            fixed bottom navigation bar
+        -->
     </section>
 
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-    <script src="Scripts/app.js"></script>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="Scripts/app.js"></script>
 </body>
 
 </html>
