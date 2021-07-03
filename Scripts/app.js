@@ -62,10 +62,13 @@ $(function() {
         $('.best-seller-products').removeClass('display-none')
 
     });
-    // var menSection = $('.men');
-    // menSection.click(function() {
-    //     $('.mobile-container').addClass('display-none');
-    //     $('.mobile-container').load('beauty.html');
-    // });
 
+    $('.menu-button-nav').click(function() {
+        $('.mobile-container').addClass('display-none')
+        $('.menu-section').removeClass('display-none')
+    });
+    $('.index-button-nav').click(function() {
+        $('.mobile-container').removeClass('display-none')
+        $('.menu-section').removeClass('display-none')
+    });
 });
