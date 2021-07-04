@@ -69,6 +69,6 @@ $(function() {
     });
     $('.index-button-nav').click(function() {
         $('.mobile-container').removeClass('display-none')
-        $('.menu-section').removeClass('display-none')
+        $('.menu-section').addClass('display-none')
     });
 });
